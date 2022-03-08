@@ -1,0 +1,132 @@
+20.082799	20.555921	what is that
+23.332402	23.894108	cars
+34.734477	35.260066	cars
+39.074096	39.921313	car
+49.037312	49.503539	what is that
+52.852747	53.930748	[gasp] what is it
+54.841833	55.832588	is that a four
+58.941085	59.659069	what number
+65.954916	66.363371	[gasp]
+75.209853	75.824082	seven
+78.173093	79.303868	eight look
+79.849773	80.292164	what is that
+81.264989	82.756040	[speech] what number is that
+84.033170	84.609095	one
+85.979612	86.340679	what is that
+89.121311	89.708426	what is that
+98.536172	99.197987	ooh
+104.234314	105.908926	ready look
+106.461411	107.804876	can you make me a stack
+120.384738	121.210627	where has two gone
+123.929005	124.373076	look
+128.934142	129.241256	[gasp]
+136.196985	138.828209	six do we put the si@ seven on the eight
+140.878406	143.181058	and then where what goes on [speech] six
+143.915417	146.900340	no that is a six it looks like a nine
+148.128798	148.701525	what goes on
+149.217212	149.870928	yeah
+151.051392	152.357848	[speech] goes on five
+154.030377	156.205080	you want what is that
+157.238479	159.147569	that is a four whoopsie
+160.752476	161.695789	do not worry
+172.175035	173.602702	wee oh no
+182.940643	183.197955	here
+186.079269	187.987282	yeah do you want to pass me a green car
+192.477794	193.129375	yeah
+196.511784	197.848147	it is green 
+202.097948	202.936288	where is the red one
+208.762029	209.103471	[gasp]
+213.100118	213.540039	[speech]
+218.308614	220.097349	drink are you going to pour me
+223.948496	226.105246	woo thank you
+226.650868	229.265132	[drinknoise]
+231.676396	233.033510	can I have some more please
+234.383938	234.855446	thank you
+235.430571	237.916752	[drinknoise]
+238.781511	240.365186	more thank you
+241.435840	242.865324	[drinknoise]
+243.834516	245.394170	oh more
+245.903760	248.264729	[drinknoise] does babyname want some
+253.161961	255.784885	mmm yum do you like some
+270.725591	272.294365	oh does that taste nice
+296.353051	297.170640	six
+297.755818	298.822418	uh uh five
+301.237832	301.872812	what is that
+302.740203	303.471986	four
+304.499886	305.146598	three
+306.907000	307.326170	two
+313.974784	314.966681	that is tall
+320.631614	321.130909	[gasp]
+321.638783	323.472964	we have not seen these before look
+325.105610	327.496494	ready [gasp] who is inside
+328.872559	331.075635	[gasp] did you see who is inside [gasp]
+331.796267	332.766872	who is inside
+335.999875	337.168409	look [gasp]
+338.269947	338.678305	oh
+339.386927	340.515918	it is a baby
+341.940024	343.739990	look should we put them together
+345.632480	346.241513	hello
+347.914409	348.245557	[gasp]
+349.927032	350.592759	hello
+355.937416	356.804807	oh
+357.527987	358.261526	who is this
+360.344925	360.827454	hello
+366.846449	367.607768	who is this
+369.682652	370.375949	hello
+371.550454	374.804208	[gasp] oh you have got a big one ready
+377.324786	378.084881	hello
+378.832966	379.349419	hello
+379.979502	383.714392	shall we put them inside each other look baby
+384.290898	384.471056	[gasp]
+385.839579	386.686219	bye bye
+390.130882	391.107736	should we do it again look
+391.994320	392.651948	baby
+394.554991	397.396111	bye [gasp] should we in try this one look
+398.750839	399.887993	[speech]
+402.087597	403.054593	bye bye
+404.191746	405.165214	bye bye
+406.565658	411.203083	should we try this [speech] pop him in this one look ready [gasp]
+411.662099	413.529687	put them in there and then
+414.662691	415.581782	bye bye
+416.343520	420.037195	bye bye and one more one more and then let us see if you can open it
+420.439764	420.717827	okay
+421.518815	422.048599	ready
+423.660316	425.648260	bye bye where are they all
+427.167232	428.574148	are they all inside
+439.520500	439.867090	oh
+441.369203	442.560309	can you put them back together
+443.900822	444.876118	there is the Lisa
+449.852204	450.831650	that is baby
+452.944100	454.890558	there is no one inside that one is there
+457.542517	458.285402	what about this one
+460.144690	462.269590	is that good oh that does not fit
+483.393281	484.967013	should we put that together with this one
+485.809502	486.614640	are they both blue
+509.270561	510.611074	should we put them all back together
+513.821122	514.735638	[speech]
+515.554071	515.958997	ready
+516.815617	517.345357	[gasp]
+525.630634	526.181681	should we put
+531.826876	533.345848	there is no one inside that one
+536.230235	538.052171	[speech] this it goes this way around
+539.720549	540.699996	and I have got blue
+542.281220	543.820943	and then look this one
+544.360469	545.115804	[speech]
+547.989387	548.390309	oh
+550.980031	552.256560	should we pop this one in here
+553.061266	553.926671	no okay
+567.045440	568.508534	yeah well done
+571.008878	572.274687	can you put it in th@ this one
+574.001169	574.496645	no
+585.696422	586.526461	put it in the pink one
+594.963809	596.048698	[speech]
+610.166228	610.785629	hello
+622.226447	623.309188	[speech] pink
+625.630654	627.331189	[speech] way round that way
+628.037909	629.386521	that is it [speech] put the pink lid on
+631.971108	632.207669	[speech]
+634.257866	635.282964	put that one in this one
+637.104900	637.631975	that is it
+638.266955	638.491066	[gasp]
+639.130196	639.441461	[speech]
+642.080985	642.433752	no

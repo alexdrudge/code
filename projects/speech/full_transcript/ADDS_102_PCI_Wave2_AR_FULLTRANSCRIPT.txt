@@ -1,0 +1,164 @@
+6.165630	7.274905	what shall we play with
+11.238139	11.833163	what is that
+15.431575	16.089871	should we read it
+17.785117	18.084950	hmm
+27.910918	28.489787	thank you
+30.234700	31.171432	oh look babyname
+33.059684	33.792498	it goes on
+37.785349	38.139742	off
+43.136279	44.124639	are you having a drink
+44.723701	45.566427	mmm
+46.727694	47.494196	mummy have a drink
+52.026876	52.621900	thank you
+53.181922	54.095997	pour me some tea
+57.041499	58.492711	[pournoise]
+59.172545	61.255128	[drinknoise]
+67.862314	68.660615	are you going to have some
+75.748397	76.184568	cheers
+77.591260	80.542241	cheers [drinknoise]
+81.211306	82.509189	mummy has got the purple cup
+83.762369	84.533746	what has babyname got
+87.639446	88.312550	the yellow cup
+89.400286	89.619717	yeah
+93.356789	93.748535	one
+94.357021	94.748768	two
+98.414490	99.380485	ooh look [speech]
+101.004593	101.743646	big
+102.937509	103.404245	pink
+110.691902	112.529475	we can build a tower there is lots
+122.496794	123.311785	is that a cup
+124.323867	126.103284	[speech]
+127.282561	132.454908	oh my goodness there is lots of things to do is there not do you want to build a tower or do the puzzle
+134.288224	135.117763	puzzle okay
+136.102912	137.530053	let me show you how it works
+141.003556	141.534161	[speech]
+144.610943	144.929055	look
+146.566982	147.166044	babyname look
+148.069349	149.185355	little green
+150.165394	150.698492	in
+151.621991	152.092232	pink
+153.415139	154.562108	lid on
+156.526224	158.755543	pink in yellow
+159.994054	161.360455	lid on
+162.594927	164.950790	do you want to try yellow in blue
+168.698226	171.382969	[speech] like that and then you put the yellow in the blue
+172.543399	172.842257	in
+174.127109	174.980035	[speech] can you put the lid on
+179.820997	181.133069	good boy well done
+181.645108	183.667111	and then blue in
+184.306559	185.213903	orange
+187.487648	188.359990	you hold it open
+189.311759	190.069673	hold it open
+190.959101	191.953017	put the blue in
+195.410293	195.699513	oh
+196.429157	198.382668	[gasp] they all came out
+203.533093	205.570093	pink pink goes in oh
+206.450325	207.391324	and there is the green one
+208.557139	210.083738	the green in pink good boy
+210.641068	211.467640	then you put the lid on
+213.846388	214.780656	the green in
+216.250714	217.666924	good boy lid on
+220.822435	224.309551	good boy well done and bl@ pink in yellow
+225.348384	227.010811	the orange is too big
+227.973488	228.995670	yellow next
+230.184620	231.690367	good boy can you put the pink in
+233.545123	234.542980	[speech] can you put the lid on
+235.916112	236.431709	lid on
+242.186746	244.774156	yeah that is right good boy well done
+245.464099	246.790613	and then yellow in
+247.338681	247.904088	blue
+248.971631	249.565308	blue
+250.206103	251.468845	thank you put it
+252.158104	253.504311	in like this you put it in
+254.965872	255.997487	good boy lid on
+259.398007	262.681407	well done and then blue in can you put it in the orange one
+263.672215	264.405898	babyname put it in
+267.491406	268.074313	put the lid on
+271.151744	271.695611	you did it
+272.108897	272.603599	yes
+281.673026	283.844579	what should we do next want to read the book
+284.267842	285.875214	you want to have some tea okay
+287.590282	288.552820	here we go there is the lid
+292.633175	293.788523	you want the teapot okay
+294.497672	295.425209	can I have a cup
+296.539812	297.394677	a purple cup
+299.840769	302.099705	thank you and a purple cup for babyname
+305.012898	306.256793	where is the other purple cup
+307.427055	308.008209	good boy
+310.933518	311.599890	there we are
+313.489966	316.217382	[drinknoise] thank you
+329.101932	329.766959	babyname have some
+340.214874	341.062985	cheers
+342.173606	345.300161	[drinknoise] is there any cake to go with my tea
+346.290523	346.841751	is there
+347.242750	348.028568	oh
+348.598128	349.824395	well there is some plates
+350.287796	351.775073	do you want some cake on a plate
+356.370955	358.306248	oh thank you yummy
+358.786191	361.472997	mmm [drinknoise]
+362.104009	363.224177	[drinknoise]
+364.385147	365.538207	delicious
+365.975274	368.120096	[eatnoise] mmm
+368.597365	371.301175	what cake is it is it chocolate chocolate cake
+371.731394	375.830975	mmm [eatnoise]
+383.295636	385.588377	thank you I finished my cake thank you
+390.328711	391.987019	finished my tea thank you
+409.804480	410.358990	what next
+410.777323	411.619767	should we read the book
+413.055041	413.452573	no
+415.010342	418.244909	[gasp] neenaw neenaw neenaw neenaw
+423.527227	424.882763	fire fire
+429.304240	429.962584	car
+432.878466	434.074778	ambulance
+435.779060	436.561412	police
+438.153849	439.546366	p@ p@ p@ police
+440.125329	441.319080	and fire 
+442.590257	443.314827	engine
+444.927630	449.914546	and these all go neenaw neenaw neenaw neenaw neenaw
+453.637939	455.426831	there is a crash was it a crash
+456.210338	462.287719	agh quick we need an ambulance neenaw neenaw neenaw neenaw neenaw
+465.285385	466.464113	another crash
+472.676344	473.354340	[playnoise]
+480.000990	480.611155	is that funny
+492.446967	493.406128	where has the green car gone
+498.347539	499.031663	under there
+499.919176	500.661081	right ready
+503.233480	504.197263	looking looking
+510.815472	511.396747	where is the car
+514.132088	516.343936	oh no
+517.192157	518.038068	there
+518.440222	519.015718	how fun
+519.598148	520.003769	do it again
+531.115010	531.680106	where is the car
+533.423930	534.629237	[playnoise]
+536.036776	537.258261	there it is
+540.279443	540.964320	you do it to mummy
+542.241274	543.696194	where is the car oh you hide it from mummy
+549.047849	549.430357	oh
+553.696889	554.259674	[speech] under there
+555.372531	557.062041	under the pink one
+568.703709	569.591222	good boy and that one
+570.186364	571.199838	oh car is on top
+576.997560	578.038769	aw we are missing one
+578.470970	579.415107	come here put that one on
+581.794427	582.894665	that is it and the blue one
+584.291804	585.014063	good boy
+586.791400	587.135773	oh
+592.033271	592.742818	do you want to do it again
+593.708490	594.702742	no you can put them in
+597.832148	598.938072	other way turn it around
+599.810562	600.663406	yeah turn it around
+602.819784	603.431104	around
+604.038958	605.424541	like this babyname like this
+606.483084	606.843636	yeah
+613.504603	616.687167	that [speech] seven good boy seven
+617.297332	618.153643	good boy
+618.744162	619.273434	what is that one
+620.839293	623.033806	it is eight good boy
+623.523787	623.982567	and that one
+627.450568	628.527034	five
+630.118884	630.836521	good boy
+631.297975	631.645452	it is that one
+633.343050	636.686246	three you know your numbers what about that one
+638.701639	639.741692	two
+640.275587	641.800999	you are a clever boy

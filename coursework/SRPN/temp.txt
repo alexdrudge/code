@@ -1,0 +1,3 @@
+Comparing files test.txt and T-OBSCURE/05.RESULT.TERM
+FC: no differences encountered
+

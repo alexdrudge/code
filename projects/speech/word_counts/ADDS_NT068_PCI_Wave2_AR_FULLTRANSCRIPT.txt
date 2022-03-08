@@ -1,0 +1,14 @@
+ooh	1	
+toys	1	
+baby	1	
+mmm	2	
+a	2	
+party	1	
+choo	2	
+ah	1	
+oopsie	1	
+whoops	1	
+cheers	3	
+hello	1	
+babycino	3	
+mhm	1	

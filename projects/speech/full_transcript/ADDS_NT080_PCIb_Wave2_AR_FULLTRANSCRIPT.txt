@@ -1,0 +1,172 @@
+0.051910	3.813364	[car] look babyname it is an ambulance
+4.996607	7.351207	oh come you want to see
+9.628596	10.013470	come
+11.242365	12.224726	oh come
+13.252937	15.729183	that is a book with a mouse
+18.681490	21.931834	come on buddy this way wee
+26.116552	26.650821	there we go
+27.601967	28.933650	okay what can we see
+30.077659	30.756477	cups
+31.616980	32.633212	do you want to build a tower
+34.817411	35.384424	[speech]
+35.839632	36.919752	[speech] more cups
+38.201522	39.668968	oh look
+41.234244	41.567664	[gasp]
+42.108722	42.799520	it fell over
+43.837713	46.175645	the tower fell over look
+46.814533	47.337623	okay
+49.965051	50.482151	right
+52.795228	53.249335	[speech]
+54.367390	54.748726	[gasp]
+55.307753	56.232145	try this one on here
+58.867558	59.129103	[gasp]
+60.452800	60.776237	oh
+61.465038	62.447329	are you putting him away
+63.565383	64.429879	going to tidy up
+70.229786	71.277962	ah
+79.867015	81.949391	good [speech] the little one
+84.504944	86.078206	blue that is right blue
+88.529940	89.280634	[gasp]
+90.095216	92.141655	good good building
+92.916307	93.688962	hey babyname
+94.106236	94.952763	what is under here 
+96.028890	97.174896	you get more cups
+98.193124	99.844251	[gasp] teacup on top
+104.148868	104.523614	oh
+105.143030	105.494418	[gasp]
+107.181482	107.558826	[gasp]
+109.251879	109.826879	it is gone
+111.758565	112.011772	[gasp]
+115.345276	116.117092	there is a cup on there
+118.467842	119.715999	uh oh wobbly
+121.083290	122.233289	which [speech] next
+123.962280	125.174171	oh look there is the little one
+127.396304	127.832109	oh
+133.629458	134.094648	okay
+148.140206	148.619372	yeah hold on
+149.024667	150.002964	try this one on here
+157.022748	159.019274	ready oh it fell over
+161.736545	162.355468	careful
+165.905291	166.366488	[laugh]
+169.684714	170.113967	good
+170.864661	171.523514	yeah swap
+172.607628	172.994954	oh
+174.037140	174.644084	sorry
+176.922119	178.106059	woah it is wobbly
+178.860746	179.477672	it is wobbly
+182.366645	183.674369	which one is next three
+186.301797	189.226228	[gasp] wow it fell down
+192.764550	193.383473	there you go
+202.549523	204.298479	blue that is right blue
+204.877471	205.438191	woah
+206.051429	206.955855	there is another blue one
+208.596999	209.173995	pink
+224.792815	226.126494	that is it that is all the cups
+228.061127	228.690033	[gasp]
+229.570501	230.275274	oh no
+231.321454	232.569282	[speech] should we put them away
+233.270063	233.521625	babyname
+234.491936	235.514157	do you want to put it in here
+236.177004	236.837854	look buddy
+237.283079	238.684640	tidy up come
+239.579084	240.219968	tidy up
+241.583595	242.951215	bye bye cups look
+243.414409	243.895572	tidy up
+245.119442	245.955987	okay put it in here
+247.115968	247.655030	that is right
+248.291921	248.932806	and then this one
+250.194610	250.797561	tidy up
+253.233322	254.069867	uh oh
+255.748945	256.234100	[speech]
+257.783404	258.432275	orange
+262.866559	263.219944	hey
+266.264645	267.518463	are you going to build another tower
+269.225493	271.962729	hey are you building another tower or tidying up
+275.907864	276.428957	hey
+277.588939	278.092063	okay
+279.779127	281.284508	alright put that one on top
+283.063412	283.562543	bless you
+284.143532	284.560806	bless you
+285.784676	287.759240	bye bye okay tidy up time
+288.991097	289.849603	see you soon
+293.091960	294.126161	night night cups
+294.703156	295.433885	[speech]
+296.142651	296.811488	okay this one
+297.614091	298.248986	this one next
+301.904624	302.294714	night night
+302.779103	303.192384	[speech]
+304.739691	305.929620	night night cups
+307.019723	307.319202	[gasp]
+309.305745	310.561560	okay it has gone to sleep that one
+311.829353	312.344457	oh
+313.811903	314.734298	are they waking up
+316.237682	317.677177	bless you bless you
+319.448095	320.200785	bless you babyname
+325.152169	326.010675	oh
+327.901385	329.101297	should we build a big big tower
+333.509625	334.973079	ah what did you put
+335.909449	337.025507	there oh there we go
+338.291304	339.467258	bye bye bye
+341.304061	342.885310	bye bye bye bye cups
+345.648501	346.485045	do you want some tea
+347.183150	348.172110	do you want a cup of tea
+348.882873	350.557958	[gasp] hot hot tea
+352.410734	353.592677	hot are you going to blow on it
+354.373318	355.968542	ah [speech] okay
+357.190416	357.693540	thank you
+359.617274	361.065672	[speech] do you want to pour out some tea
+362.049959	363.022267	yeah pour some for me
+363.826867	364.350546	thank you
+366.448305	367.059242	[blow]
+367.560370	368.432852	[blow]
+368.957938	370.073996	mmm
+370.748822	371.687189	do you have some for babyname
+372.583629	373.454114	oh no
+374.400467	375.011404	is it hot
+376.339093	377.343346	are you going to drink the tea
+379.573465	380.569731	yeah it is another one
+381.358359	382.020978	some for daddy
+383.420770	386.589256	thank you tea mmm mmm mmm
+388.617850	390.508436	do you want to put it on the saucer like that
+391.536647	392.319285	here is one for you
+396.603829	398.119192	and then we can put the teacup on
+398.630302	399.121447	like that
+403.303823	405.592187	[gasp] oh no
+406.987758	408.001993	oh no
+409.966575	410.904942	oh no
+411.531851	415.123499	[laugh] oh no oh no
+419.623821	420.508230	oh all gone
+426.220290	428.299671	where are the cars do you want to see the cars babyname
+430.600667	432.446194	oh look the teapot has a lid
+433.315942	434.721496	this goes on top of the teapot
+435.947363	436.787841	let us put it on there
+438.041718	438.508905	there
+440.084164	440.407601	oh
+442.575828	443.410376	there good
+447.281639	448.715144	babyname do you want to drive the car
+449.340057	452.310887	[car]
+456.050379	457.390048	look here are the cars
+460.838048	462.119817	oh there is a another [speech]
+463.900718	465.497939	police car look
+468.023544	470.022066	[laugh] babyname no
+471.473540	472.148366	no no
+472.863122	473.595847	no buddy
+475.486557	476.095497	come on
+483.694273	484.081599	look
+485.443230	486.621180	there are the cars here
+487.539582	488.633678	which cars do you want
+489.382375	490.720047	look red white
+491.901990	493.123864	green white
+494.040269	495.108411	oh buddy
+496.603808	497.454328	it is alright
+499.169344	499.782224	aw
+500.345297	502.140174	you want to see the book with the mouse
+503.202325	504.861438	that is not my truck
+505.672028	507.686522	its tank is too shiny
+509.449454	514.193199	that is not my truck its hubcaps are too rough
+518.266111	521.885812	that is not my truck its mixer is too bumpy
+525.611329	529.129207	that is not my truck its radiatior is too lumpy
+531.872434	535.182673	that is my truck its tipper is so ridgy
+536.486404	536.973557	yeah
+538.692565	539.259579	okay
+546.319293	547.038042	[laugh]

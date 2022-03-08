@@ -1,0 +1,134 @@
+8.132442	8.623996	okay
+17.388719	18.431289	[speech] this book
+19.802883	20.276599	this one
+22.127854	23.081231	you know this one
+24.010823	25.852168	we have got these ones at home hmm
+26.565714	27.840186	that is not my truck
+28.841133	31.213673	it is too squishy
+32.220566	33.819398	that is not my truck
+34.317598	36.095517	its tank is too shiny
+37.572161	38.267868	turn the page
+40.890150	45.466754	that is not my truck its radiator is too lumpy
+50.701407	52.242645	that is not my truck
+52.592304	55.213698	its tipper is too ridgy
+59.478023	61.602804	yeah [speech] ridgy
+65.467845	66.762138	that is not my truck
+67.675873	69.984988	its hubcaps are too rough
+71.126661	71.911562	[speech] ones
+73.790566	74.478345	are they rough
+74.920347	75.528843	are they rough
+81.074681	84.549254	that is not my truck its mixer is too bumpy
+85.750390	86.237980	[speech]
+93.643001	94.955133	where is the door there is the door
+97.888600	100.102575	closed yeah the door is closed
+101.271997	102.213482	what else can you see
+103.468133	105.561202	man [filler] where is the man
+106.720714	107.656252	is he inside
+109.006043	109.907886	is he inside the truck
+112.236821	112.769998	mmm
+114.458724	117.632021	mmm what what can you see in this picture
+125.609862	126.588320	what is that babyname
+127.887263	128.842622	a neenaw neenaw
+132.420262	133.038669	bus
+138.318909	138.879835	hmm
+139.329766	140.542794	and then what else can you see
+141.353604	142.879657	[speech] oh that is another one there
+143.349408	143.939520	who is that
+147.499867	148.257019	another one
+149.697985	150.796053	is that a neenaw neenaw
+152.082418	153.083365	is it a fire engine
+161.515100	162.246485	hmm
+162.999672	163.990708	see the wheels
+172.297573	173.098330	mmm
+173.827732	177.750253	that is a neenaw [gasp] and this is another neenaw and this is another neenaw
+178.354785	179.500423	this is a police car
+180.263521	181.674756	this is a fire engine
+182.150454	183.371410	this is an ambulance
+184.750932	186.031351	[speech] you have got all the neenaws
+188.837965	190.146133	[speech]
+191.936124	192.274878	[gasp]
+193.983425	194.996264	what is that
+198.554083	199.263665	do you want some help
+201.826484	202.209024	yeah
+203.229792	203.729274	[gasp]
+211.853788	212.246238	whoops
+213.756577	214.672294	wow
+241.016016	241.794970	put the lid on
+257.728849	258.735742	is it not working
+259.633620	260.301579	where is the lid
+261.950663	263.030892	hmm do you want to put the lid on
+265.264687	266.576819	that is Marge
+268.033642	269.082158	[speech]
+270.422039	270.919539	mmm
+271.357577	272.511143	mmm
+274.063106	275.103694	this is Homer
+277.884541	278.284920	here
+279.051982	280.068785	Homer and Marge
+280.554392	281.775349	and where is Bart
+286.294474	287.170549	he is hiding
+290.363668	291.198120	can you find him
+297.322723	299.009467	no what about Lisa
+300.044108	300.959826	can you see Lisa
+311.012896	312.053484	should we read the book again
+313.658962	314.815311	that is not my truck
+315.872937	317.899969	its mixer is too 
+319.010557	320.007540	bumpy
+325.208497	325.852671	door
+327.412561	328.825779	the man where is the man
+331.495630	332.647214	truck yeah
+334.359725	335.697623	it has got big wheels
+336.936418	337.600413	where is 
+338.688570	339.096877	sorry
+341.029397	341.810334	[speech]
+344.426669	347.681232	are you going to make tea yeah mmm I would love a cup of tea
+355.954401	356.648126	water
+365.293925	367.955848	oh they have got numbers on the bottom what number is this
+373.204376	373.874316	hmm
+382.131629	383.144468	that is number one
+384.494259	386.670574	tea yeah let us make tea
+406.251465	407.690450	[speech] plate babyname
+410.358319	411.755680	peice [laugh]
+412.445441	413.204575	can I have some
+415.376926	417.969476	you need a spoon yeah I do not think we have got a spoon
+418.910961	421.636310	okay we can use our fingers today use our fingers
+425.606401	426.831321	are you going to make me some tea
+429.540814	431.027368	yeah with a teapot
+439.300537	440.759343	[speech] oh thank you
+442.452032	444.114991	yoghurt are you ready for yoghurt
+446.443926	448.233737	mmm what about mummy
+449.922462	451.952104	oh is that for me thank you
+453.194864	455.067922	oh look two cups of tea
+455.856787	456.970711	thank you babyname
+457.531638	458.557849	very kind
+461.279736	463.111171	and the lid yeah do you want to put the lid on
+467.650116	468.326003	whoops
+493.494356	494.338718	teapot
+498.805089	501.601031	yeah you can put the teacup on the saucer
+502.758561	503.660404	can you put it on the plate
+509.777079	510.661083	seesaw
+513.134709	514.111871	there is a seesaw
+520.289990	520.967859	[laugh]
+521.788436	522.947949	is a seesaw at home
+524.741724	525.427521	mmm
+532.247831	533.492573	mmm neenaw
+535.197155	536.774884	one neenaw where is the other one
+539.010662	540.840114	yeah is that a police car
+541.892595	543.274099	and there is a flashing light
+544.461360	545.936022	[speech] to imagine that it is flashing
+547.218423	548.171800	that blue light
+549.184638	550.617677	like your motorbike at home
+556.450915	556.886971	ah
+557.644123	559.315009	yeah there is another blue light
+561.201942	564.131938	and wheels yeah the wheels go round and round
+566.319653	567.257173	can you move them round
+569.225371	569.996397	yeah
+571.881347	572.533449	neenaw
+578.798779	580.447863	is there a neenaw in the book
+585.506604	588.958881	mmm it is dark yeah can you see the stars in the sky
+595.555218	596.615626	neenaw neenaw
+597.630447	599.107091	yeah there is the door
+611.824066	612.529684	what is that
+631.133414	632.031293	would you like some tea
+634.090666	639.313426	would you like some [speech] would you like some tea babyname let me pour some [pournoise]
+640.169681	641.043775	it is quite hot
+641.680020	642.762231	it is quite hot

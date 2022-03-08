@@ -1,0 +1,117 @@
+82.476169	86.230390	ooh what is in there
+88.107501	91.683877	what have we got oh what have we got have we got cars
+93.278935	95.204846	[car] babyname
+96.803902	98.107181	[speech] 
+99.450753	101.579350	 cars [car]
+103.256384	105.654528	car [car]
+106.957807	110.481385	[speech]
+111.273356	113.381633	[speech] ooh ow [frustration]
+114.783040	117.955314	ow thank you kiss it better can you kiss it better thank you
+119.089469	120.415435	thank you darling that is lovely
+121.839895	122.957793	what car have you got
+124.187728	125.224370	have you got an ambulance
+126.408752	129.572849	you have got an ambulance ah you have got a 
+130.829870	131.702766	green car
+132.993029	133.981655	and what is this one
+134.831160	141.974386	this is a police car neenaw neeanw neenaw neenaw quick there is an emergency
+145.602632	147.179756	[speech] fire engine
+147.908606	149.432747	[gasp] what is on fire
+150.187495	153.458703	neenaw neenaw neenaw
+154.579064	157.761629	neenaw that one does neenaw too the ambulance does neenaw
+161.826940	162.501619	yes
+163.085191	163.838665	do you want to have a look at it
+164.901161	166.474592	that is not my truck 
+166.936279	169.058809	[gasp] that is not my truck
+169.529115	171.678731	its tank is too shiny
+172.849570	174.377447	shiny tank is it not
+175.576603	175.945953	touch
+177.951522	179.031255	very shiny yeah
+182.839252	188.138191	[gasp] that is not my truck the hubcaps are too rough
+194.530406	194.924379	look
+195.402071	196.138309	at that page
+198.040460	203.318470	that is that is my truck its tipper is so ridgy
+204.605463	205.054414	what is it
+207.279131	208.443814	[speech] this page though
+209.018769	210.229971	oh can you find the mouse
+210.610667	211.311200	where is the mouse
+212.616236	213.545767	where is the bunny
+214.151500	215.385129	and where is the birdy
+216.298654	217.114917	where is the birdy
+219.087245	219.992153	yeah
+221.199927	223.404945	[gasp] that is not my truck
+223.941734	227.336059	its radiator is too lumpy
+232.452785	237.118905	that is not my truck its tank is too shiny
+243.363379	244.797688	do you like the bumpy radiator
+246.392048	248.100907	it is bumpy is it not now where is the mouse
+249.261896	249.923033	where is the mouse
+250.896885	252.338581	bunny bun@ bunny
+253.871382	254.541272	where is the bunny
+255.325390	256.126879	where is the bunny
+259.700954	261.689287	nice car what colour is the truck
+262.455073	263.371060	what colour is the truck
+266.590560	266.895889	oh
+267.305867	267.665368	wow
+270.276671	271.332968	[speech]
+273.077169	274.218435	[frustration]
+281.823778	282.390115	so
+283.244544	284.990338	this is teacup here babyname
+286.350776	287.970991	is that a teacup and a teapot
+289.351128	290.502268	should we play tea party
+290.927021	291.845471	do you want to play tea party
+294.957859	296.130759	cup for me
+297.473131	298.581181	cup for you
+298.941912	302.325157	the teapot [speech]
+303.223908	305.165457	yeah should we do cheers
+305.781040	306.559137	should we do cheers
+308.815865	309.914065	cheers
+313.981838	316.566056	but we have not poured the tea yet do you want to pour the tea out
+318.627028	320.468852	go pour the tea
+321.074586	322.348843	now do you want a cup of tea
+323.876720	324.848110	do you want a cup of tea
+325.841661	327.368307	pour the tea
+329.043924	330.735547	lid stays on to keep the tea hot
+335.960616	336.270870	yeah
+337.306280	339.517455	tea tea and then we do cheers
+340.996085	341.401139	then we do
+344.145408	345.839493	cheers and then
+348.405243	349.752139	put put the teacup back
+351.458535	352.703244	and
+354.047678	360.646728	why do we not put a car in the teapot [laugh] do you think the car belongs in the teapot
+373.981488	375.031673	[car]
+391.464048	394.045803	do you think we have got do you think we have got some snacks for our plate as well
+395.627697	396.161724	some snacks
+397.218518	398.013852	should I eat the car
+399.895073	401.092998	do you eat the fire engine
+401.539911	402.835098	nom nom nom nom 
+403.333720	404.398679	[eatnoise]
+404.827125	407.350446	tasty car [eatnoise]
+408.414743	409.599125	will you eat the fire engine
+411.077755	413.930367	do not be silly mummy you do not eat the fire engine
+419.647903	420.466628	is it delicious
+420.914773	422.027747	[laugh]
+424.792946	426.292507	[playnoise]
+432.949422	438.134505	mum's grandma and grandad have got a teaset and when we go to their house next week you will be able to play some tea party
+450.809027	452.422777	do you think the teapot makes a good hat
+454.062690	454.990989	does it make a good hat
+491.641574	492.488616	what are we doing
+493.057415	493.711164	what are we doing
+494.597604	495.402787	[gasp]
+495.889097	497.020539	should we find number five
+498.271404	499.468097	they have all got numbers on
+500.680796	502.613929	that one is number eight
+504.248715	505.869770	and then that one is number seven
+508.080104	509.465837	this one is number six
+510.821911	512.625570	that one is number five
+515.091595	516.555452	and that is number four
+517.460359	518.532705	there is a four in there
+521.140315	522.639875	that is number three
+524.123430	524.553107	three
+527.054837	528.354881	and that is number two
+532.438726	533.651425	and that is number one
+535.922926	538.188272	oh no we never got number one on there
+539.224914	543.228666	oh you we are almost done but we never got number one on there did we
+545.603586	545.952006	[speech]
+547.244730	548.509138	seven inside eight
+549.374648	550.758478	six inside seven
+554.763365	555.956462	[speech] go in there
+565.728228	566.507647	that is number one
