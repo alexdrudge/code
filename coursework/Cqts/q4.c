@@ -84,12 +84,12 @@ void encrypt_columnar(const char *message_filename, const char *key_filename, ch
 
     // bubble sort to put the key into alphabetical order
     char temp[rows];
-    for (int i=0;i<key_length-1;i++){
-        for (int j=i+1;j<key_length;j++){
-            if (cipher[i][0] > cipher[j][0]){
-                strcpy(temp, cipher[i]);
-                strcpy(cipher[i], cipher[j]);
-                strcpy(cipher[j], temp);
+    for (int i=0;i<key_length;i++){
+        for (int j=0;j<key_length-i-1;j++){
+            if (cipher[j][0] > cipher[j+1][0]){
+                strcpy(temp, cipher[j]);
+                strcpy(cipher[j], cipher[j+1]);
+                strcpy(cipher[j+1], temp);
             }
         }
     }
