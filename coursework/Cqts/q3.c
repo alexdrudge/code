@@ -98,6 +98,6 @@ int main(void){
     const char *input_file = "input.txt";
     const char *redact_file = "words.txt";
     redact_words(input_file, redact_file);
-    printf("sucess");
+    printf("success");
     return 0;
 }

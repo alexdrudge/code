@@ -57,6 +57,6 @@ int howManyDays() {
 }
 
 int main(void){
-    printf("%d", howManyDays());
+    printf("%d\n", howManyDays());
     return 0;
 }
