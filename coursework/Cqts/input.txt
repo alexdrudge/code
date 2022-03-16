@@ -1,1 +1,1 @@
-the lazy dog jumps over the brown fence
+Note that the number of stars in the redacted text is the same as the number of letters in the word that has been redacted, and that capitalization is ignored. Only whole words that match one of the redacted words should be redacted, e.g., given the redacted word "pass", the word "password" would not be redacted. Hyphenated words and words with apostrophes (e.g. Chris' or Chris's) will not be tested.

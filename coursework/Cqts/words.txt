@@ -1,0 +1,2 @@
+note, same, in, the
+pass, words, ignored, ed
