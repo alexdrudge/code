@@ -7,6 +7,16 @@ import copy
 
 
 class DiceGame:
+    # create the game object to play and analyse the dice game
+    # game = DiceGame()
+    # game = DiceGame(dice, sides, values, bias, penalty)
+    # game is the game object (DUH!)
+    # dice = 4 creates 4 equivelent dice
+    # sides = 3 = 8 changes how many values are on the dice
+    # values = [1, 2, 6] = [1, 1, 1, 1, 2, 2, 2, 2] is the value of each side (in order)
+    # bias = [0.1, 0.1, 0.8] = [sum(1)] is the weighting of each dice summing 1 (in order)
+    # both must be len = sides and the order is relative to each other
+    # penalty = 2 = 4 is the point less per roll
     def __init__(self, dice=3, sides=6, values=None, bias=None, penalty=1):
         self._dice = dice
         self._sides = sides
@@ -38,6 +48,9 @@ class DiceGame:
 
         self.reset()
 
+    # resets the game, dice, score back to the start
+    # state = reset()
+    # state = (2, 3, 4) = (1, 1, 6) is the state of the dice in acending order
     def reset(self):
         self._game_over = False
         self.score = self._penalty
@@ -67,8 +80,14 @@ class DiceGame:
         temp_dice.sort()
         
         return np.sum(temp_dice)
- 
 
+    # rolls the dice, holds any dice denoted by their index
+    # reward, new_state, game_over = roll(hold)
+    # hold = (0, 1, 2) = (0, ) = () the extra comma needed when a tuple of one value
+    # reward = -1 = 15 gives either the penalty or the value of the held dice (not the final score)
+    # new_state = (2, 3, 4) = (1, 1, 6) is the state of the dice in acending order
+    # game_over = True if all dice held
+    # game.score gives the final score (track seperately?)
     def roll(self, hold=()):
         if hold not in self.actions:
             raise ValueError("hold must be a valid tuple of dice indices")
@@ -92,6 +111,10 @@ class DiceGame:
             self.score -= self._penalty
             return -1*self._penalty, self.get_dice_state(), False
 
+    # gives the current state of the three dice in acending order
+    # state = get_dice_state()
+    # state = (2, 3, 4) = (1, 1, 6)
+    # useless? (use reset for first state)
     def get_dice_state(self):
         return tuple(self._current_dice)
 
