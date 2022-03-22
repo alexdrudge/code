@@ -1,0 +1,16 @@
+// pseudocode for breadth first search
+procedure breadth(grid):
+    start = grid.get_start() // obtain the starting node
+    end = grid.get_end() // obtain the node to be found
+    queue = queue() // initialise a queue
+    queue.push(start) // add the start node to the queue
+    found = false
+    while not found: // run until the end node has been found
+        current = queue.pull() // take the node that is closest to the start
+        current.set_state(closed) // set the state to closed so it is only searched once
+        for i in current.get_neighbours():
+            if i.get_state() != start or closed: // only search nodes that have not been searched
+                queue.push(i) // add these to the queue to be searched
+        if current = end:
+            found = true // end the loop if the end node is found
+    return end.get_path() // give the final shortest path that has been found

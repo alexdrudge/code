@@ -1,0 +1,8 @@
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,
+wall,space,space,start,space,space,space,space,space,space,space,space,space,space,space,space,space,space,wall,
+wall,space,space,space,space,space,space,space,space,space,space,space,space,space,space,space,space,space,wall,
+wall,space,space,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,space,space,wall,
+wall,space,space,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,space,space,wall,
+wall,space,space,space,space,space,space,space,space,space,space,space,space,space,space,space,space,space,wall,
+wall,space,space,space,space,space,space,space,space,space,space,space,end,space,space,space,space,space,wall,
+wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,wall,

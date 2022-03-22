@@ -1,0 +1,6 @@
+[None, None]
+(255, 127, 127)
+a*
+['up', 'right', 'down', 'left']
+1
+player

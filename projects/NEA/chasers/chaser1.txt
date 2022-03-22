@@ -1,0 +1,6 @@
+[4, 13]
+(255, 127, 255)
+breadth
+['right', 'up', 'down', 'left']
+-2
+ahead

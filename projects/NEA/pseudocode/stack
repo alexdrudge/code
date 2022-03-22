@@ -1,0 +1,25 @@
+// stack pseudocode
+class queue():
+    procedure constructor():
+        this.list = [] // initialise the list
+
+    procedure push(item):
+        this.list.append(item) // add the item to the end of the list
+
+    procedure pull():
+        if this.list = []:
+            return Null // avoid a crash if the list is empty
+        else:
+            return this.list.pop() // remove the item from the end of the list and return it
+
+    procedure empty():
+        if this.list = []:
+            return True // the list is empty
+        else:
+            return False // the list is not empty
+    
+    procedure search(item):
+        for i in this.list: // iterate through every item in the list
+            if i = item:
+                return  // the item is present in the list
+        return False // if the item is not found then return False

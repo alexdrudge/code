@@ -1,0 +1,84 @@
+// queue pseudocode
+class queue():
+    procedure constructor():
+        this.list = [] // initialise the list
+
+    procedure push(item):
+        this.list.append(item) // add the item to the end of the list
+
+    procedure pull():
+        return this.list.pop(0) // remove the item from the start of the list and return it
+
+// improved queue pseudocode
+class queue():
+    procedure constructor():
+        this.list = [] // initialise the list
+
+    procedure push(item):
+        this.list.append(item) // add the item to the end of the list
+
+    procedure pull():
+        if this.list = []:
+            return Null // avoid a crash if the list is empty
+        else:
+            return this.list.pop(0) // remove the item from the start of the list and return it
+
+    procedure empty():
+        if this.list = []:
+            return True // the list is empty
+        else:
+            return False // the list is not empty
+    
+    procedure search(item):
+        for i in this.list: // iterate through every item in the list
+            if i = item:
+                return  // the item is present in the list
+        return False // if the item is not found then return False
+
+// priority queue pseudocode
+class priority():
+    procedure constructor():
+        this.list = [] // initialise the list
+
+    procedure push(item):
+        // items are adding to the queue in the format [item, queue] so a nested list is created
+        if this.list = []:
+            this.list.append([item, weight]) // add the item to the queue with its weight
+        else:
+            inserted = False
+            for i in range(length(this.list)): // iterate through the items in the queue
+                if weight <= this.list[i][1] and not inserted: // check if the item fits in before the currently selected item
+                    this.list.insert(i, [item, weight]) // add the item into the correct location
+                    inserted = True // prevent it from being added again
+            if not inserted:
+                self.list.append([item, weight]) // add the item to the end of the list if it has the highest weight
+
+    procedure pull():
+        if this.list = []:
+            return Null // avoid a crash if the list is empty
+        else:
+            return this.list.pop(0) // remove the item from the start of the list and return it
+    
+    procedure reweigh(item, weight):
+        for i in range(length(this.list)): // iterate through every item in the list taking its position
+            if this.list[i][0] = item:
+                this.list.pop(i) // remove the found item from the queue
+                this.push(item, weight) // add the item back to the queue with the new weight
+
+    procedure empty():
+        if this.list = []:
+            return True // the list is empty
+        else:
+            return False // the list is not empty
+    
+    procedure search(item):
+        for i in this.list: // iterate through every item in the list
+            if i[0] = item:
+                return True // the item is present in the list
+        return False // if the item is not found then return False
+    
+    procedure get_weight(item):
+        for i in this.list: // iterate through every item in the list
+            if i[0] = item:
+                return i[1] // return the weight of the found item
+        return Null // if the item is not found return Null

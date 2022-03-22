@@ -1,0 +1,6 @@
+[11, 5]
+(127, 255, 255)
+dijkstra
+['up', 'down', 'left', 'right']
+2
+behind

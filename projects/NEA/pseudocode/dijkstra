@@ -1,0 +1,47 @@
+procedure dijkstra(grid):
+    start = grid.get_start() // obtain the starting node
+    end = grid.get_end() // obtain the node to be found
+    queue = queue() // initialise a queue that will store all nodes that need to be searched
+    queue.push(start) // add the start node to the queue to begin the loop
+    found = false
+    while not found: // run until the end node has been found
+        current = queue.pull()
+        for i in queue:
+            if i.get_distance < current.get_distance:
+                current = i // select the node with the shortest distance to the starting node
+        for i in current.get_neighbours():
+            distance = current.get_distance + 1 // increment the distance for the new node
+            if distance < i.get_distance():
+                i.set_distance(distance) // ensure that each node has the shortest path
+                i.set_path(current.get_path() + current) // set the new shortest path to the node
+                if queue.search(i) = false:
+                    queue.push(i) // add the node to the queue if has not be searched
+        if current = end:
+            found = true // end the loop if the end node is found
+    return end.get_path() // give the final shortest path that has been found
+
+procedure dijkstra(grid):
+    start = grid.get_start() // obtain the starting node
+    end = grid.get_end() // obtain the node to be found
+    queue = priority_queue() // initialise a queue that will store all nodes that need to be searched
+    queue.push(start, 0) // add the start node to the queue with a distance of 0
+    // each node it initialised with a distance of 1000 (greater than any possible distance)
+    found = false
+    while not found: // run until the end node has been found
+        current = queue.pull() // take the node that is closest to the start
+        current.set_state(closed) // set the state to closed so it does not have to be searched again
+        for i in current.get_neighbours():
+            if i.get_state() != start or closed: // only search nodes that have not been searched before
+                distance = current.get_distance + 1 // increment the distance for the new node
+                if distance < i.get_distance():
+                    i.set_distance(distance) // ensure that each node has the shortest path
+                    i.set_path(current.get_path() + current) // set the new shortest path to the node
+                    if queue.search(i) = false:
+                        queue.push(i, distance) // add the node to the queue
+                    else:
+                        queue.reweigh(i, distance) // move the position of the node
+        if current = end:
+            found = true // end the loop if the end node is found
+    return end.get_path() // give the final shortest path that has been found
+
+    

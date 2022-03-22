@@ -1,0 +1,25 @@
+// pseudocode for astar algorithm
+procedure astar(grid):
+    start = grid.get_start() // obtain the starting node
+    end = grid.get_end() // obtain the node to be found
+    queue = priority_queue() // initialise a priority queue
+    queue.push(start, 0) // add the start node to the queue with a distance of 0
+    // each node it initialised with a distance of 1000 (greater than any possible distance)
+    found = false
+    while not found: // run until the end node has been found
+        current = queue.pull() // take the node that is closest to the start
+        current.set_state(closed) // set the state to closed so it is only searched once
+        for i in current.get_neighbours():
+            if i.get_state() != start or closed: // only search nodes that have not been searched
+                distance = current.get_distance + 1 // increment the distance for the new node
+                heuristic = current.get_x + current.get_y - end.get_x - end.get_y // calculate the heuristic distance to the end node
+                if distance + heuristic < queue.get_weight(i): // compare the weights to each other
+                    i.set_distance(distance) // ensure that each node has the shortest path
+                    i.set_path(current.get_path() + current) // set the new shortest path to the node
+                    if queue.search(i) = false:
+                        queue.push(i, distance + heuristic) // add the node to the queue
+                    else:
+                        queue.reweigh(i, distance + heuristic) // move the position of the node
+        if current = end:
+            found = true // end the loop if the end node is found
+    return end.get_path() // give the final shortest path that has been found
