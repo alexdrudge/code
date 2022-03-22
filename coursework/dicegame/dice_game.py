@@ -48,6 +48,9 @@ class DiceGame:
 
         self.reset()
 
+    # self.states stores every possible state given the games settings
+    # self.actions stores every possible action given the number of dice
+
     # resets the game, dice, score back to the start
     # state = reset()
     # state = (2, 3, 4) = (1, 1, 6) is the state of the dice in acending order
@@ -118,6 +121,16 @@ class DiceGame:
     def get_dice_state(self):
         return tuple(self._current_dice)
 
+    # get all possible rolls given the state and action taken
+    # states, game_over, reward, probabilities = game.get_next_states(hold, state)
+    # hold = (0, 1, 2) = (0, ) = () the extra comma needed when a tuple of one value
+    # state = (2, 3, 4) = (1, 1, 6) is the state of the dice in acending order
+    # states = [(2, 3, 4), ..., (6, 6, 6)] list of possible rolls that could occur in order
+    # states is set to [None] if all dice are held
+    # game_over = True if all dice are held
+    # reward = 15 = -1 set to the score of the final state or the penalty
+    # probabilities = [0.004, ..., 0.50] the proability for each state occuring in order sums to 1(ish)
+    # used for working out V(s|a)?
     def get_next_states(self, action, dice_state):
         """
         Get all possible results of taking an action from a given state.
