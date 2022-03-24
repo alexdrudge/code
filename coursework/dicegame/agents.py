@@ -130,7 +130,7 @@ def play_game_with_agent(agent, game, verbose=False):
 
 if __name__ == "__main__":
     np.random.seed()
-    game = DiceGame()
+    game = DiceGame(dice=5, sides=3, values=[4, 5, 6], bias=[0.2, 0.2, 0.6], penalty=4)
     iterations = 100000
     agent = OneStepValueIterationAgent(game)
     total = 0
