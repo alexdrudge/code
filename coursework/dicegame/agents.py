@@ -48,8 +48,6 @@ class ManualAgent(DiceGameAgent):
         # Your Code Here.
         pass
 
-
-
 class OneStepValueIterationAgent(DiceGameAgent):
     def __init__(self, game):
         """
@@ -60,36 +58,34 @@ class OneStepValueIterationAgent(DiceGameAgent):
         super().__init__(game)
         self.gamma = 1
         
-        self.policy = [None for _ in range(len(game.states))]
+        self.policy = {state: None for state in game.states}
+        self.values = {state: 0 for state in game.states}
 
-        self.values = [0 for _ in range(len(game.states))]
         delta = 1
-        while delta > 0.0000000000000000001:
+        theta = 10 ** (-400)
+        while delta > theta:
             delta, self.values = self.perform_single_value_iteration()
         
     
     def perform_single_value_iteration(self):
-        new_values = [0 for _ in range(len(game.states))]
+        new_values = {state: 0 for state in game.states}
         delta = 0
-        for pos, state in enumerate(game.states):
-            max_value = 0 # set lower
+        for state in game.states:
+            max_value = -100000000000000
             for action in game.actions:
                 next_states, game_over, reward, probabilities = game.get_next_states(action, state)
+                value = 0
                 if not game_over:
-                    for next_pos, next_state in enumerate(next_states):
-                        reward += probabilities[next_pos] * self.gamma * self.find_value(next_state)
-                if reward >= max_value:
-                    max_value = reward
-                    self.policy[pos] = action
-
-            new_values[pos] = max_value
-            delta = max(delta, abs(self.values[pos] - new_values[pos]))
+                    for i in range(len(next_states)):
+                        value += probabilities[i] * (reward + self.gamma * self.values[next_states[i]])
+                else:
+                    value = reward
+                if value > max_value:
+                    max_value = value
+                    self.policy[state] = action
+            new_values[state] = max_value
+            delta = max(delta, abs(self.values[state] - new_values[state]))
         return delta, new_values
-    
-    def find_value(self, state):
-        for i, s in enumerate(game.states):
-            if s == state:
-                return self.values[i]
     
     def play(self, state):
         """
@@ -102,10 +98,69 @@ class OneStepValueIterationAgent(DiceGameAgent):
         
         read the code in dicegame.py to learn more
         """
-        for i, s in enumerate(game.states):
-            if s == state:
-                return self.policy[i]
+        return self.policy[state]
 
+
+
+class ValueIterationAgent(DiceGameAgent):
+    def __init__(self, game):
+        """
+        If your code does any pre-processing on the game, you can do it here
+        
+        You can always access the game with self.game
+        """
+        super().__init__(game)
+        
+        # These are default values, you can play around with these to improve your agents performance.
+        self.theta = 10 ** (-350)
+        self.gamma = 0.9
+        
+        self.policy = {state: None for state in self.game.states}
+        self.values = {state: 0 for state in self.game.states}
+
+        self.value_iteration()
+        
+    
+    def perform_single_value_iteration(self):
+        # We advice you use the function from the previous assignment. You do not have to if you don't want to but it should save you alot of time.
+        
+        new_values = {state: 0 for state in self.game.states}
+        delta = 0
+        for state in self.game.states:
+            max_value = -100000000000000
+            for action in self.game.actions:
+                next_states, game_over, reward, probabilities = self.game.get_next_states(action, state)
+                value = 0
+                if not game_over:
+                    for i in range(len(next_states)):
+                        value += probabilities[i] * (reward + self.gamma * self.values[next_states[i]])
+                else:
+                    value = reward
+                if value > max_value:
+                    max_value = value
+                    self.policy[state] = action
+            new_values[state] = max_value
+            delta = max(delta, abs(self.values[state] - new_values[state]))
+        
+        return delta, new_values
+    
+    def value_iteration(self):
+        delta = 1
+        while delta > self.theta:
+            delta, self.values = self.perform_single_value_iteration()
+    
+    def play(self, state):
+        """
+        given a state, return the chosen action for this state
+        at minimum you must support the basic rules: three six-sided fair dice
+        
+        if you want to support more rules, use the values inside self.game, e.g.
+            the input state will be one of self.game.states
+            you must return one of self.game.actions
+        
+        read the code in dicegame.py to learn more
+        """
+        return self.policy[state]
 
 
 def play_game_with_agent(agent, game, verbose=False):
@@ -129,10 +184,10 @@ def play_game_with_agent(agent, game, verbose=False):
     return game.score
 
 if __name__ == "__main__":
-    np.random.seed()
-    game = DiceGame(dice=5, sides=3, values=[4, 5, 6], bias=[0.2, 0.2, 0.6], penalty=4)
+    np.random.seed(300)
+    game = DiceGame(dice=4, sides=7, values=[1, 1, 1, 5, 5, 6, 8], bias=[0.1, 0.1, 0.1, 0.15, 0.15, 0.2, 0.2], penalty = 4)
     iterations = 100000
-    agent = OneStepValueIterationAgent(game)
+    agent = ValueIterationAgent(game)
     total = 0
     for i in range(iterations):
         total += play_game_with_agent(agent, game)
