@@ -356,8 +356,8 @@ def code_five():
     return solutions
 
 if __name__ == "__main__":
-    print(code_one())
     print(code_two())
-    print(code_three())
-    print(code_four())
-    print(code_five())
+    possible_messages = code_five()
+    assert("YOUCANFOLLOWMYDOGONINSTAGRAMATTALESOFHOFFMANN" in possible_messages)
+    #print(code_three())
+    #print(code_five())
