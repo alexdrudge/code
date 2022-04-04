@@ -112,8 +112,8 @@ class ValueIterationAgent(DiceGameAgent):
         super().__init__(game)
         
         # These are default values, you can play around with these to improve your agents performance.
-        self.theta = 10 ** (-350)
-        self.gamma = 0.9
+        self.theta = 10 ** (-500)
+        self.gamma = 1
         
         self.policy = {state: None for state in self.game.states}
         self.values = {state: 0 for state in self.game.states}
@@ -185,7 +185,7 @@ def play_game_with_agent(agent, game, verbose=False):
 
 if __name__ == "__main__":
     np.random.seed(300)
-    game = DiceGame(dice=4, sides=7, values=[1, 1, 1, 5, 5, 6, 8], bias=[0.1, 0.1, 0.1, 0.15, 0.15, 0.2, 0.2], penalty = 4)
+    game = DiceGame()
     iterations = 100000
     agent = ValueIterationAgent(game)
     total = 0
