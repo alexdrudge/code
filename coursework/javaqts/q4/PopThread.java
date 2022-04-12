@@ -8,13 +8,14 @@ import java.util.ArrayList;
 public class PopThread implements Runnable{
     private ArrayList<String> files = null;
     static {
+        // ensures the file exists and is empty
         File temp = new File("result.txt");
         temp.delete();
         try {
             File file = new File("result.txt");
             file.createNewFile();
         } catch (IOException e) {
-            System.out.println("result file not created");
+            e.printStackTrace();
         }
     }
 
@@ -23,20 +24,21 @@ public class PopThread implements Runnable{
     }
 
     private ArrayList<String> file_read(String filename) {
+        ArrayList<String> input = new ArrayList<String>();
         try(BufferedReader br = new BufferedReader(new FileReader(filename))) {
             String line;
-            ArrayList<String> input = new ArrayList<String>();
             while ((line = br.readLine()) != null) {
                 input.add(line);
             }
             return input;
         } catch(IOException e) {
-            System.out.println("failed file read");
-            return new ArrayList<String>();
+            e.printStackTrace();
+            return input;
         }
     }
 
     private static synchronized void file_write(int num, ArrayList<String> input) {
+        // read in existsing data
         ArrayList<String> content = new ArrayList<String>();
         try(BufferedReader br = new BufferedReader(new FileReader("result.txt"))) {
             String line;
@@ -44,29 +46,35 @@ public class PopThread implements Runnable{
                 content.add(line);
             }
         } catch(IOException e) {
-            System.out.println("failed file read");
+            e.printStackTrace();
         }
+        // place in the new data
         ArrayList<String> temp = new ArrayList<String>();
         ArrayList<String> result = new ArrayList<String>();
         boolean written = false;
         for(String line : content) {
             temp.add(line);
-            if(line.charAt(0) == '#') {
-                char[] arr = new char[3];
-                line.getChars(1, 4, arr, 0);
-                int id = Integer.parseInt(String.valueOf(arr));
-                if(id == num) {
-                    written = true;
-                } else if(id > num && written == false) {
-                    for(String data : input) {
+            // assumes label in the form #000/000 exists
+            // assumes totals are equal
+            // assumes that no other lines has # and /
+            if (line.length() == 8) {
+                if(line.charAt(0) == '#' && line.charAt(4) == '/') {
+                    char[] arr = new char[3];
+                    line.getChars(1, 4, arr, 0);
+                    int id = Integer.parseInt(String.valueOf(arr));
+                    if(id == num) {
+                        written = true;
+                    } else if(id > num && written == false) {
+                        for(String data : input) {
+                            result.add(data);
+                        }
+                        written = true;
+                    }
+                    for(String data : temp) {
                         result.add(data);
                     }
-                    written = true;
+                    temp = new ArrayList<String>();
                 }
-                for(String data : temp) {
-                    result.add(data);
-                }
-                temp = new ArrayList<String>();
             }
         }
         if(written == false) {
@@ -83,18 +91,24 @@ public class PopThread implements Runnable{
             String output = sb.toString();
             fw.write(output);
         } catch(IOException e) {
-            System.out.println("failed file write");
+            e.printStackTrace();
         }
     }
 
     @Override
     public void run() {
-        for(String filename : this.files) {
-            ArrayList<String> input = file_read(filename);
-            char[] arr = new char[3];
-            input.get(input.size()-1).getChars(1,4,arr,0);
-            int num = Integer.parseInt(String.valueOf(arr));
-            file_write(num, input);
+        if (this.files != null) {
+            for(String filename : this.files) {
+                ArrayList<String> input = file_read(filename);
+                if (input.size() > 0) {
+                    // assumes label in the form #000/000 exists
+                    // assumes totals are equal
+                    char[] arr = new char[3];
+                    input.get(input.size()-1).getChars(1,4,arr,0);
+                    int num = Integer.parseInt(String.valueOf(arr));
+                    file_write(num, input);
+                }
+            }
         }
     }
 

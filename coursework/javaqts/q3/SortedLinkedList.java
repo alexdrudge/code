@@ -17,63 +17,64 @@ public class SortedLinkedList implements SortedList{
 
     @Override
     public void add(Node node) {
-        // verify that the strings are all [a-z][A-Z]
-        if(this.length == 0) { // case 1.0 list is empty
-            this.head = node;
-            this.tail = node;
-            node.setPrev(null);
-            node.setNext(null);
-            this.length++;
-        } else if(this.length == 1) { // case 2.0 list has one node
-            int diff = node.getString().compareToIgnoreCase(this.head.getString());
-            if(diff > 0) { // case 2.1 the node is larger than the head
-                this.tail = node;
-                this.head.setNext(node);
-                node.setPrev(this.head);
-                node.setNext(null);
-                this.length++;
-            } else if(diff < 0) { // case 2.2 the node is smaller than the head
-                this.head = node;
-                this.tail.setPrev(node);
-                node.setPrev(null);
-                node.setNext(this.tail);
-                this.length++;
-            } else { // case 2.3 the node is the same as the head
-                System.out.println("string already used");
-            }
-        } else { // case 3.0 the list has multiple nodes
-            Node current = this.head;
-            while(current != null) {
-                int diff = node.getString().compareToIgnoreCase(current.getString());
-                if(diff < 0) {
-                    if(current == this.head) { // case 3.1 the node is smaller than the head
+        if (node.getString() != null) {
+            if (node.getString().matches("[a-zA-Z]+")) {
+                if (this.length == 0) { // case 1.0 list is empty
+                    this.head = node;
+                    this.tail = node;
+                    node.setPrev(null);
+                    node.setNext(null);
+                    this.length++;
+                } else if (this.length == 1) { // case 2.0 list has one node
+                    int diff = node.getString().compareToIgnoreCase(this.head.getString());
+                    if (diff > 0) { // case 2.1 the node is larger than the head
+                        this.tail = node;
+                        this.head.setNext(node);
+                        node.setPrev(this.head);
+                        node.setNext(null);
+                        this.length++;
+                    } else if (diff < 0) { // case 2.2 the node is smaller than the head
                         this.head = node;
+                        this.tail.setPrev(node);
                         node.setPrev(null);
-                        node.setNext(current);
-                        current.setPrev(node);
+                        node.setNext(this.tail);
                         this.length++;
-                        break;
-                    } else { // case 3.2 the node is smaller than the current
-                        current.getPrev().setNext(node);
-                        node.setPrev(current.getPrev());
-                        current.setPrev(node);
-                        node.setNext(current);
-                        this.length++;
-                        break;
+                    } // case 2.3 the node is the same as the head
+                } else { // case 3.0 the list has multiple nodes
+                    Node current = this.head;
+                    while (current != null) {
+                        int diff = node.getString().compareToIgnoreCase(current.getString());
+                        if (diff < 0) {
+                            if (current == this.head) { // case 3.1 the node is smaller than the head
+                                this.head = node;
+                                node.setPrev(null);
+                                node.setNext(current);
+                                current.setPrev(node);
+                                this.length++;
+                                break;
+                            } else { // case 3.2 the node is smaller than the current
+                                current.getPrev().setNext(node);
+                                node.setPrev(current.getPrev());
+                                current.setPrev(node);
+                                node.setNext(current);
+                                this.length++;
+                                break;
+                            }
+                        } else if (diff == 0) { // case 3.3 the node is already in the list
+                            System.out.println("string already used");
+                            break;
+                        }
+                        current = current.getNext();
                     }
-                } else if(diff == 0) { // case 3.3 the node is already in the list
-                    System.out.println("string already used");
-                    break;
+                    if (current == null) { // case 3.4 the node is larger than the tail
+                        current = this.tail;
+                        this.tail = node;
+                        current.setNext(node);
+                        node.setPrev(current);
+                        node.setNext(null);
+                        this.length++;
+                    }
                 }
-                current = current.getNext();
-            }
-            if(current == null) { // case 3.4 the node is larger than the tail
-                current = this.tail;
-                this.tail = node;
-                current.setNext(node);
-                node.setPrev(current);
-                node.setNext(null);
-                this.length++;
             }
         }
     }
@@ -92,16 +93,16 @@ public class SortedLinkedList implements SortedList{
     public Node get(int index) {
         int i = 0;
         Node current = null;
-        if(this.ascending) {
+        if (this.ascending) {
             current = this.head;
         } else {
             current = this.tail;
         }
-        while(current != null) {
-            if(index == i) {
+        while (current != null) {
+            if (index == i) {
                 return current;
             }
-            if(this.ascending) {
+            if (this.ascending) {
                 current = current.getNext();
             } else {
                 current = current.getPrev();
@@ -114,9 +115,9 @@ public class SortedLinkedList implements SortedList{
     @Override
     public boolean isPresent(String string) {
         Node current = this.head;
-        while(current != null) {
-            // should it be case insensitive?
-            if(current.getString() == string) {
+        while (current != null) {
+            // case sensitive
+            if (current.getString() == string) {
                 return true;
             }
             current = current.getNext();
@@ -136,10 +137,10 @@ public class SortedLinkedList implements SortedList{
 
     @Override
     public boolean remove(int index) {
-        if(this.length == 0) {
+        if (this.length == 0) {
             return false;
-        } else if(this.length == 1) {
-            if(index == 0) {
+        } else if (this.length == 1) {
+            if (index == 0) {
                 this.head = null;
                 this.tail = null;
                 this.length--;
@@ -156,11 +157,11 @@ public class SortedLinkedList implements SortedList{
                 current = this.tail;
             }
             while(current != null) {
-                if(i == index) {
-                    if(current == this.head) {
+                if (i == index) {
+                    if (current == this.head) {
                         this.head = current.getNext();
                         this.head.setPrev(null);
-                    } else if(current == this.tail) {
+                    } else if (current == this.tail) {
                         this.tail = current.getPrev();
                         this.tail.setNext(null);
                     } else {
@@ -170,7 +171,7 @@ public class SortedLinkedList implements SortedList{
                     this.length--;
                     return true;
                 }
-                if(this.ascending) {
+                if (this.ascending) {
                     current = current.getNext();
                 } else {
                     current = current.getPrev();
@@ -185,10 +186,10 @@ public class SortedLinkedList implements SortedList{
     public boolean remove(String string) {
         Node current = this.head;
         int i = 0;
-        while(current != null) {
-            // should it be case insensitive?
-            if(current.getString() == string) {
-                if(this.ascending) {
+        while (current != null) {
+            // case sensitive
+            if (current.getString() == string) {
+                if (this.ascending) {
                     return this.remove(i);
                 } else {
                     return this.remove(this.length - i - 1);
@@ -212,18 +213,16 @@ public class SortedLinkedList implements SortedList{
 
     @Override
     public void print() {
-        if(this.length == 0) {
-            System.out.println("list empty");
-        } else {
+        if (this.length > 0) {
             Node current = null;
-            if(this.ascending) {
+            if (this.ascending) {
                 current = this.head;
             } else {
                 current = this.tail;
             }
-            while(current != null) {
+            while (current != null) {
                 System.out.println(current.getString());
-                if(this.ascending) {
+                if (this.ascending) {
                     current = current.getNext();
                 } else {
                     current = current.getPrev();
@@ -236,14 +235,18 @@ public class SortedLinkedList implements SortedList{
         System.out.println("Start");
 
         SortedLinkedList list = new SortedLinkedList();
-        list.add(new Node("Charlie"));
-        list.add(new Node("Alpha"));
-        list.add(new Node("Bravo"));
-        list.orderDescending();
-        list.add(new Node("bravo"));
-        System.out.println(list.getLast().getString());
-        list.remove("Bravo");
+        String test = "e";
+        list.add(test);
+        list.add(new Node("g"));
+        list.add(new Node("h"));
         list.print();
+        System.out.println("----");
+        list.remove("e");
+        list.print();
+        System.out.println("----");
+        list.add("e");
+        list.print();
+        System.out.println(list.size());
 
         System.out.println("Done");
     }

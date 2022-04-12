@@ -5,8 +5,18 @@ public class CustomSort implements SortingInterface{
 
     @Override
     public void setValues(ArrayList<Double> values) {
-        this.values = values;
-        sort();
+        boolean valid = true;
+        if (values != null) {
+            for (Double value : values) {
+                if (value == null) {
+                    valid = false;
+                }
+            }
+        }
+        if (valid) {
+            this.values = values;
+            sort();
+        }
     }
 
     @Override
@@ -16,36 +26,38 @@ public class CustomSort implements SortingInterface{
         int n = this.values.size();
         int gap = 1;
         int i = 2;
-
-        while(gap < n) {
+        while (gap < n) {
             temp.add(gap);
             gap = (1 << i) - 1;
             i++;
         }
-        
-        for(int j=(temp.size()-1);j>=0;j--) {
+        for (int j=(temp.size()-1);j>=0;j--) {
             gaps.add(temp.get(j));
         }
-
         return gaps;
     }
 
     @Override
     public void add(Double value) {
-        this.values.add(value);
-        sort();
+        if (value != null) {
+            this.values.add(value);
+            sort();
+        }
     }
 
     @Override
     public void remove(int index) {
-        this.values.remove(index);
+        try {
+            this.values.remove(index);
+        } catch (IndexOutOfBoundsException e) {
+            e.printStackTrace();
+        }
     }
 
     @Override
     public void sort() {
         int n = this.values.size();
         ArrayList<Integer> gaps = getGaps();
-
         for(int gap : gaps) {
             for(int i=gap;i<=(n-1);i++) {
                 Double temp = this.values.get(i);
@@ -66,15 +78,14 @@ public class CustomSort implements SortingInterface{
 
         CustomSort sort = new CustomSort();
         ArrayList<Double> values = new ArrayList<Double>();
+        sort.remove(2);
+        sort.sort();
         values.add(0.1);
         values.add(0.5);
         values.add(0.0);
-        values.add(0.1);
-        values.add(0.5);
-        values.add(0.0);
-        values.add(0.1);
-        values.add(0.5);
-        values.add(0.0);
+        values.add(0.2);
+        values.add(0.6);
+        values.add(-0.3);
         sort.setValues(values);
 
         System.out.println("Done");
