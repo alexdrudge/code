@@ -61,12 +61,8 @@ void removeDigit(int x, int n, int* a_ptr, int* b_ptr){
 int main(void){
     int a;
     int b;
-    for (int x=0;x<10;x++){
-        for (int n=95;n<1005;n++){
-            removeDigit(x, n, &a, &b);
-            if (a+b != n) printf("ruh roh\n");
-        }
-    }
+    removeDigit(5, 100, &a, &b);
+    printf("%d, %d", a, b);
     printf("success");
     return 0;
 }
