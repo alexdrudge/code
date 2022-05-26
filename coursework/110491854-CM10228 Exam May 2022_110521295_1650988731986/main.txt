@@ -1,0 +1,24 @@
+public static void main(String[] args) {
+        MyHashTable table = new MyHashTable();
+        table.add("a");
+        table.remove("a");
+        table.add("b");
+        table.remove("b");
+        table.add("c");
+        table.remove("c");
+        table.add("d");
+        table.remove("d");
+        table.add("e");
+        table.remove("e");
+        table.add("f");
+        table.remove("f");
+        table.add("g");
+        //table.remove("g");
+        //table.add("h");
+        //table.remove("h");
+        //table.add("i");
+        //table.remove("i");
+        //table.add("j");
+        //table.remove("j");
+        System.out.println(table.print());
+    }
