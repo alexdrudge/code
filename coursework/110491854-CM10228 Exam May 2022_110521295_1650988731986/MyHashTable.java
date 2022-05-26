@@ -124,7 +124,7 @@ public class MyHashTable extends HashTable{
             } else if (storageArray[index] == null) {
                 return false;
             } else {
-                index = (index + 1) * storageArray.length;
+                index = (index + 1) % storageArray.length;
             }
             count++;
             if (count > storageArray.length) return false;
@@ -155,4 +155,13 @@ public class MyHashTable extends HashTable{
         }
     }
     
+    public static void main(String[] args) {
+        MyHashTable table = new MyHashTable();
+        table.add("hello");
+        table.add("world");
+        System.out.println(table.search("Hello"));
+        table.remove("world");
+        System.out.println(table.search("world"));
+        System.out.println(table.print());
+    }
 }
