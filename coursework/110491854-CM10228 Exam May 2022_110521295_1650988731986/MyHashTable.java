@@ -155,13 +155,4 @@ public class MyHashTable extends HashTable{
         }
     }
     
-    public static void main(String[] args) {
-        MyHashTable table = new MyHashTable();
-        table.add("hello");
-        table.add("world");
-        System.out.println(table.search("Hello"));
-        table.remove("world");
-        System.out.println(table.search("world"));
-        System.out.println(table.print());
-    }
 }
